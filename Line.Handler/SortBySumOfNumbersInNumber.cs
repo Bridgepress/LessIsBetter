@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace Line.Handler
 {
-    public class SortBySumOfNumbersInNumber
+    public class SortBySumOfNumbersInNumber 
     {
         private List<int> _listNumbers;
+        public List<int> SortedNumbers { get; set; }
 
         public SortBySumOfNumbersInNumber(List<int> listNumbers)
         {
@@ -17,7 +19,7 @@ namespace Line.Handler
 
         public void Sort()
         {
-            List<int> sortNumbers = _listNumbers.Sort((x, y) => )
+            SortedNumbers = _listNumbers.OrderBy(x => x, new SortBySumOfNumbersInNumberComparer()).ToList();
         }
     }
 }

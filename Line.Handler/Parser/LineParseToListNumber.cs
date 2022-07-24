@@ -21,11 +21,16 @@ namespace Line.Handler
         {
             string newLine = _line.Trim();
             string[] array = newLine.Split(' ');
+            bool isSuccessfully = false;
+            int number = 0;
 
             foreach (string item in array)
             {
-                int number = int.Parse(item);
-                ListNumbers.Add(number);
+                isSuccessfully = int.TryParse(item,out number);
+                if (isSuccessfully)
+                {
+                    ListNumbers.Add(number);
+                }
             }
         }
     }

@@ -45,6 +45,7 @@
     <Compile Include="Parser\LineParseToListNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SortBySumOfNumbersInNumber.cs" />
+    <Compile Include="SortBySumOfNumbersInNumberComparer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
