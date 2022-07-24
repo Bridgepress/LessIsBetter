@@ -16,6 +16,7 @@ namespace LessIsBetter
             lineParseToListNumber.Parse();
             SortBySumOfNumbersInNumber sortBySumOfNumbersInNumber = new SortBySumOfNumbersInNumber(lineParseToListNumber.ListNumbers);
             sortBySumOfNumbersInNumber.Sort();
+
             foreach (var item in sortBySumOfNumbersInNumber.SortedNumbers)
             {
                 Console.WriteLine(item);
