@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LessIsBetter.cs" />
     <Compile Include="Parser\IParser.cs" />
     <Compile Include="Parser\LineParseToListNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
