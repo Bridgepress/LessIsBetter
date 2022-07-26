@@ -15,9 +15,8 @@ namespace LessIsBetters.Test
         {
             // Arrange
             LessIsBetter lessIsBetter = new LessIsBetter();
-            string strResult = lessIsBetter.Order(testString);
             // Act
-
+            string strResult = lessIsBetter.Order(testString);
             // Assert
             Assert.AreEqual(expectedValue, strResult);
         }
@@ -28,9 +27,8 @@ namespace LessIsBetters.Test
         {
             // Arrange
             LessIsBetter lessIsBetter = new LessIsBetter();
-            string strResult = lessIsBetter.Order(testString);
             // Act
-
+            string strResult = lessIsBetter.Order(testString);
             // Assert
             Assert.AreEqual(expectedValue, strResult);
         }
@@ -41,9 +39,8 @@ namespace LessIsBetters.Test
         {
             // Arrange
             LessIsBetter lessIsBetter = new LessIsBetter();
-            string strResult = lessIsBetter.Order(testString);
             // Act
-
+            string strResult = lessIsBetter.Order(testString);
             // Assert
             Assert.AreEqual(expectedValue, strResult);
         }
