@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Line.Handler
 {
-    public class SortBySumOfNumbersInNumberComparer : IComparer<int>
+    public class SortBySumOfNumbersInNumberComparer : IComparer<long>
     {
-        public int Compare(int x, int y)
+        public int Compare(long x, long y)
         {
             if (SumNumberInNumber(x) > SumNumberInNumber(y))
             {
@@ -20,7 +20,7 @@ namespace Line.Handler
             }
             else
             {
-                int result = string.Compare(x.ToString(), y.ToString());
+                long result = string.Compare(x.ToString(), y.ToString());
                 if (result > 0)
                 {
                     return 1;
@@ -36,10 +36,10 @@ namespace Line.Handler
             }
         }
 
-        private int SumNumberInNumber(int number)
+        private long SumNumberInNumber(long number)
         {
-            int sum = 0;
-            int newNumber = number;
+            long sum = 0;
+            long newNumber = number;
 
             for (int i = 0; newNumber != 0; i++)
             {

@@ -9,11 +9,11 @@ namespace Line.Handler
     public class LineParseToListNumber : IParser
     {
         private string _line;
-        public List<int> ListNumbers;
+        public List<long> ListNumbers;
 
         public LineParseToListNumber(string line)
         {
-            ListNumbers = new List<int>();
+            ListNumbers = new List<long>();
             _line = line;
         }
 
@@ -22,11 +22,11 @@ namespace Line.Handler
             string newLine = _line.Trim();
             string[] array = newLine.Split(' ');
             bool isSuccessfully = false;
-            int number = 0;
+            long number = 0;
 
             foreach (string item in array)
             {
-                isSuccessfully = int.TryParse(item,out number);
+                isSuccessfully = long.TryParse(item,out number);
                 if (isSuccessfully)
                 {
                     ListNumbers.Add(number);

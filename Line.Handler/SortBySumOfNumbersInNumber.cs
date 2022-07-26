@@ -9,10 +9,10 @@ namespace Line.Handler
 {
     public class SortBySumOfNumbersInNumber 
     {
-        private List<int> _listNumbers;
-        public List<int> SortedNumbers { get; set; }
+        private List<long> _listNumbers;
+        public List<long> SortedNumbers { get; set; }
 
-        public SortBySumOfNumbersInNumber(List<int> listNumbers)
+        public SortBySumOfNumbersInNumber(List<long> listNumbers)
         {
             _listNumbers = listNumbers;
         }

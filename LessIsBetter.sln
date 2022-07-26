@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Line.Handler", "Line.Handle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessIsBetterApp", "LessIsBetterApp\LessIsBetterApp.csproj", "{8B096D59-3CBA-4C50-AA0A-4AAE05F1FCFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessIsBetters.Test", "LessIsBetter.Test\LessIsBetters.Test.csproj", "{B8A687FE-B09A-4F37-82C0-18A24246D6E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8B096D59-3CBA-4C50-AA0A-4AAE05F1FCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B096D59-3CBA-4C50-AA0A-4AAE05F1FCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B096D59-3CBA-4C50-AA0A-4AAE05F1FCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A687FE-B09A-4F37-82C0-18A24246D6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A687FE-B09A-4F37-82C0-18A24246D6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A687FE-B09A-4F37-82C0-18A24246D6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A687FE-B09A-4F37-82C0-18A24246D6E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
